@@ -16,6 +16,7 @@ const App = () => {
 
   const onContextCreate = async (gl) => {
     // three.js implementation.
+    
     const scene = new Scene();
     const camera = new PerspectiveCamera(
       85,
